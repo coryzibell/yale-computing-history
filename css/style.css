@@ -215,3 +215,24 @@ a:hover {
     background-color: var(--gold-accent);
     color: var(--aged-paper);
 }
+
+/* ASCII Diagrams */
+pre.diagram {
+    background: rgba(139, 115, 85, 0.1);
+    border: 1px solid var(--gold-accent);
+    padding: 1.5rem;
+    overflow-x: auto;
+    font-family: 'Courier New', 'Courier Prime', monospace;
+    line-height: 1.4;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    margin: 2rem 0;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    pre.diagram {
+        font-size: 0.75rem;
+        padding: 1rem;
+    }
+}
